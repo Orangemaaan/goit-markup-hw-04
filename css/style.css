@@ -212,6 +212,20 @@ section {
     color: var(--accent-color);
 }
 
+.icon-header-mail {
+    padding: 0;
+    border: none;
+
+    margin-right: 10px;
+
+    fill: var(--secondary-text-color-theme-dark);
+}
+
+.icon-header-mail:hover,
+.icon-header-mail:focus {
+    fill: var(--accent-color);
+}
+
 /*=====END HEADER=====*/
 
 /*=====START HERO=====*/
