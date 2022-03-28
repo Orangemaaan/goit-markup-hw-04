@@ -88,13 +88,11 @@ img {
     line-height: 1.87;
     letter-spacing: 0.06em;
 
-    min-width: 200px;
-    padding: 10px 16px;
+    padding: 10px 32px;
     border: none;
     border-radius: 4px;
     margin-top: 30px;
 
-    box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--accent-color);
     color: var(--text-color-theme-light);
@@ -201,14 +199,12 @@ section {
 }
 
 .contact-list-link {
-    display: block;
+    display: flex;
     align-items: center;
-    justify-content: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    transition: color 0.3s;
 
     color: var(--secondary-text-color-theme-dark);
 }
@@ -243,7 +239,7 @@ section {
 
     max-width: 1600px;
     margin: 0 auto;
-    height: 100%;
+    height: 600px;
     background-color: var(--background-dark-theme);
     background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
@@ -371,8 +367,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-
-    margin: 30px 55px 10px;
+    padding: 30px 50px 10px;
 
     color: var(--primary-text-color-theme-dark);
 }
@@ -383,19 +378,17 @@ section {
     letter-spacing: 0.03em;
     text-align: center;
 
-    margin: 0px 55px;
+    padding: 0px 50px 16px;
 
     color: var(--secondary-text-color-theme-dark);
-}
-
-.social-links {
-    margin: 16px 32px 32px 30px;
 }
 
 .social-link-list {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding: 0px 32px 30px;
 }
 
 .social-list-item:not(:last-child) {
